@@ -1,4 +1,7 @@
-#### 如何添加该开源库
+#### 1.效果预览
+---
+![](https://github.com/xsy2015/ShowButtonLayout/blob/master/app/src/main/assets/simple.gif)
+#### 2.如何添加该开源库
 _ _ _
 Gradle:
 
