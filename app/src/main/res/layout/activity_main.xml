@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xsy.showbuttonlayout.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="热门搜索"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#888888"/>
+
+    <com.xsy.lib.ShowButtonLayout
+        android:id="@+id/mShowBtnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ListView
+        android:id="@+id/mListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#eeeeee"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"/>
+
+</LinearLayout>
